@@ -28,3 +28,5 @@ Microservice architecture is an approach that has mechanisms that should be cons
 - Technological freedom : Microservices will not follow a "one size fits all" approach. You have the freedom to choose the best tool based on your needs.
 
 [Source website](https://mindmajix.com/what-is-microservices#benefits)
+
+<img src="http://mustafabas.me/Images/Uploads/1_5uiljeete7o-u0klbk1kpgjpeg_size.jpeg" width="500" height="300">
