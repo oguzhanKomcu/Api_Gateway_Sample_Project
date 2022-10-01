@@ -7,11 +7,11 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 9010
+          "Host": "c_director_api",
+          "Port": 7000
         }
       ],
-      "UpstreamPathTemplate": "/m/{id}",
+      "UpstreamPathTemplate": "/d/{id}",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -20,11 +20,11 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8000
+          "Host": "c_movie_api",
+          "Port": 9000
         }
       ],
-      "UpstreamPathTemplate": "/d/{id}",
+      "UpstreamPathTemplate": "/m/{id}",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ]
