@@ -1,0 +1,53 @@
+
+
+
+version: '3.1'
+
+services:
+  s_api_gateway:
+    container_name: c_api_gateway
+    image: oguzhankmc/apigateway
+    build: 
+      context: .
+      dockerfile: Src/ApiGateway/Dockerfile 
+    ports:
+      - 80:80
+    networks:
+     - micro_net
+     - int_net
+
+  s_movie_api:
+   container_name: c_movie_api
+   image: ogzuhankmc/movieapi
+    build: 
+      context: .
+      dockerfile: Src/Services/MovieApi/Movie.API/Dockerfile 
+    ports:
+      - 9000:9000
+    networks:
+     - int_net
+
+  s_director_api:
+   container_name: c_director_api
+   image: ogzuhankmc/directorapi
+    build: 
+      context: .
+      dockerfile: Src/Services/DirectorApi/Director.API/Dockerfile 
+    ports:
+      - 7000:7000
+    networks:
+     - int_net
+
+
+
+ 
+    
+
+
+
+networks:
+  int_net:
+   driver: overlay
+   internal: true
+  micro_net:
+   driver: bridge
