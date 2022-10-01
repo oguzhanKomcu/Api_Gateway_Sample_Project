@@ -28,6 +28,7 @@ Microservice architecture is an approach that has mechanisms that should be cons
 - Technological freedom : Microservices will not follow a "one size fits all" approach. You have the freedom to choose the best tool based on your needs.
 
 [Source website](https://mindmajix.com/what-is-microservices#benefits)
+
 # What is API Gateway?
 
 It is an API that is a facade that enables complex services used in Microservice structures to be opened against clients from a single source. Clients go through security and authorization checks through this API and get results by triggering the target microservice through API Gateway.API Gateway is criticized for creating a tight bond with the client, but this can be ignored since its advantages seriously overshadow this disadvantage. The main function of API Gateway is to receive the request from the client and forward it to the appropriate service.
@@ -36,4 +37,11 @@ With the API gateway, operations such as authentication and authorization, loggi
 
 <img src="http://mustafabas.me/Images/Uploads/1_5uiljeete7o-u0klbk1kpgjpeg_size.jpeg" width="500" height="300">
 
+# What is Jenkins ?
+
+Jenkins is a CI (Continous Integration) tool that automates the structural processes that are required dynamically in a software project, allowing the project to be quickly and easily reported, and easily tested and fixed.
+
+### Why is Jenkins used?
+
+We maintain our project on a version control system (Git). Tools, plug-ins and certain config settings are required for the software to work in the server environment. The project's UI, Unit, Api etc. tests that need to be run are run and it continues to serve the end user by making sure that it is stable. Jenkins automates each process for us for this and more detailed processes by taking over and establishing a pipeline between them.
 
