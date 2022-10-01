@@ -37,6 +37,18 @@ With the API gateway, operations such as authentication and authorization, loggi
 
 <img src="http://mustafabas.me/Images/Uploads/1_5uiljeete7o-u0klbk1kpgjpeg_size.jpeg" width="500" height="300">
 
+# What is Docker ?
+
+It is an open source 'container' technology. Docker is a technology that provides virtualization thanks to hundreds or even thousands of isolated and independent containers on the same operating system. It enables easy installation, testing, operation and deployment of our web applications. In addition, it significantly reduces server costs.
+
+### What are the advantages?
+
+- Docker does not use Hypervisor and does not host a fully loaded operating system, so it is up and running in seconds.
+- Docker stores all the infrastructure requirements of your software as code. (versioning) This is one of the most important features of Docker. With this feature, you can easily navigate, reproduce or share your software on different service providers.
+- Docker can do great things with very few resources. The main reason for this is the container technology it uses.
+- When unexpectedly high traffic hits your applications, 1000's of containers are ready within seconds and shoulder your load.
+- Docker puts your applications on a standard footing, making them work the same on every platform.
+
 # What is Jenkins ?
 
 Jenkins is a CI (Continous Integration) tool that automates the structural processes that are required dynamically in a software project, allowing the project to be quickly and easily reported, and easily tested and fixed.
