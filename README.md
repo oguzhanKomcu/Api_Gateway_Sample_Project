@@ -49,6 +49,8 @@ It is an open source 'container' technology. Docker is a technology that provide
 - When unexpectedly high traffic hits your applications, 1000's of containers are ready within seconds and shoulder your load.
 - Docker puts your applications on a standard footing, making them work the same on every platform.
 
+<img src="https://www.docker.com/wp-content/uploads/2021/11/docker-containerized-and-vm-transparent-bg.png" width="700" height="300">
+
 # What is Jenkins ?
 
 Jenkins is a CI (Continous Integration) tool that automates the structural processes that are required dynamically in a software project, allowing the project to be quickly and easily reported, and easily tested and fixed.
