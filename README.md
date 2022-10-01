@@ -45,3 +45,4 @@ Jenkins is a CI (Continous Integration) tool that automates the structural proce
 
 We maintain our project on a version control system (Git). Tools, plug-ins and certain config settings are required for the software to work in the server environment. The project's UI, Unit, Api etc. tests that need to be run are run and it continues to serve the end user by making sure that it is stable. Jenkins automates each process for us for this and more detailed processes by taking over and establishing a pipeline between them.
 
+<img src="https://messageconsulting.com/wp-content/uploads/2016/04/jenkins-technology-soup.png" width="500" height="300">
