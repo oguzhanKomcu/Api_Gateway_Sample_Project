@@ -28,5 +28,12 @@ Microservice architecture is an approach that has mechanisms that should be cons
 - Technological freedom : Microservices will not follow a "one size fits all" approach. You have the freedom to choose the best tool based on your needs.
 
 [Source website](https://mindmajix.com/what-is-microservices#benefits)
+# What is API Gateway?
+
+It is an API that is a facade that enables complex services used in Microservice structures to be opened against clients from a single source. Clients go through security and authorization checks through this API and get results by triggering the target microservice through API Gateway.API Gateway is criticized for creating a tight bond with the client, but this can be ignored since its advantages seriously overshadow this disadvantage. The main function of API Gateway is to receive the request from the client and forward it to the appropriate service.
+
+With the API gateway, operations such as authentication and authorization, logging, response caching, response caching can be done.
 
 <img src="http://mustafabas.me/Images/Uploads/1_5uiljeete7o-u0klbk1kpgjpeg_size.jpeg" width="500" height="300">
+
+
