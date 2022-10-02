@@ -16,38 +16,24 @@ services:
      - micro_net
      - int_net
 
-  s_movie_api:
-   container_name: c_movie_api
-   image: ogzuhankmc/movieapi
+  s_movie_gateway:
+    container_name: c_movie_gateway
+    image: oguzhankmc/moviegateway
     build: 
       context: .
-      dockerfile: Src/Services/MovieApi/Movie.API/Dockerfile 
+      dockerfile: Src/Services/MovieApi/Movie.API/Dockerfile
     ports:
       - 9000:9000
     networks:
      - int_net
 
-  s_director_api:
-   container_name: c_director_api
-   image: ogzuhankmc/directorapi
+  s_director_gateway:
+    container_name: c_director_gateway
+    image: oguzhankmc/directorgateway
     build: 
       context: .
-      dockerfile: Src/Services/DirectorApi/Director.API/Dockerfile 
+      dockerfile: Src/Services/DirectorApi/Director.API/Dockerfile
     ports:
       - 7000:7000
     networks:
      - int_net
-
-
-
- 
-    
-
-
-
-networks:
-  int_net:
-   driver: overlay
-   internal: true
-  micro_net:
-   driver: bridge

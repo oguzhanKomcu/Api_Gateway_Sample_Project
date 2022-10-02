@@ -32,11 +32,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.API.Services", "Src\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.API", "Src\Services\MovieApi\Movie.API\Movie.API.csproj", "{A9E076F9-1AEC-486F-BE33-21F5011ECB68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker Compose File", "Docker Compose File", "{52332978-FE4C-4375-A4CF-F2724D14ACD0}"
-	ProjectSection(SolutionItems) = preProject
-		docker-compose.yml = docker-compose.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,7 +91,6 @@ Global
 		{835F9614-6D50-4D49-8D00-0F704C1890F2} = {8678F1C4-91AA-4F59-8187-3C6F62AF4B57}
 		{B1C96C6C-E0E3-43D4-8EE5-2B201E0F74A4} = {8678F1C4-91AA-4F59-8187-3C6F62AF4B57}
 		{A9E076F9-1AEC-486F-BE33-21F5011ECB68} = {8678F1C4-91AA-4F59-8187-3C6F62AF4B57}
-		{52332978-FE4C-4375-A4CF-F2724D14ACD0} = {7E3CBC0C-4495-42FF-BD34-1FE08EEDFCCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30901DD6-9105-4477-BBA5-091BE8EE53F6}
